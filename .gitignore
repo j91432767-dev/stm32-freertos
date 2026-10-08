@@ -1,0 +1,32 @@
+# ---- Keil MDK build output (编译产物, 不提交) ----
+Objects/
+Listings/
+*.o
+*.crf
+*.d
+*.axf
+*.lnp
+*.sct
+*.map
+*.lst
+*.htm
+*.dep
+*.__i
+
+# ---- Keil user / UI settings (个人设置, 不共享) ----
+*.uvguix.*
+*.uvoptx
+*.bak
+*.scvd
+JLinkLog.txt
+JLinkSettings.ini
+
+# ---- Keil assistant / VSCode ----
+.vscode/keil-assistant.log
+.vscode/uv4.log.lock
+
+# ---- OS / editor ----
+Thumbs.db
+desktop.ini
+.DS_Store
+*~
